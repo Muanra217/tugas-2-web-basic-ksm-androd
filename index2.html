@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muanra Knowledge</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    <header>
+		<div class="title">
+			<h1>MUANRA Knowledge</h1>
+			<p>Selamat datan di Muanra Knowledge! Dimana kalian akan mendapatkan ilmu - ilmu yang berguna </p>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index2.html" class="active">Home</a></li>
+                <li><a href="tentang.html">About</a></li>
+                <li><a href="daftar.html">Daftar</a></li>
+			</ul>
+        </nav>
+    </header>
+
+    <aside>
+        <article class="isi" id="kanan">
+            <nav>
+                <h3>Tanggal Hari ini : </h3>
+            </nav>
+            <p align="center"><span id="tanggalwaktu"></span></p>
+            <script>
+                var dt = new Date();
+                document.getElementById("tanggalwaktu").innerHTML = dt.toLocaleString();
+                </script>
+        </article>
+
+        <article class="isi" id="kanan">
+            <nav>
+                <h3>Top ilmu minggu ini : </h3>
+            </nav>
+            <ol>
+                <li>Cara Menggoreng Angin</li>
+                <li>Tutorial mengosongkan pikiran</li>
+                <li>Cara bernafas</li>
+                <li>Cara memasak air minum</li>
+                <li>Tutorial Berjalan Cepat</li>
+            </ol>
+        </article>
+    </aside>
+
+    <main>
+        <article>
+            <div class="isi">
+                <h2>Cara bernafas</h2>
+                    <a href="https://image.freepik.com/free-photo/young-attractive-woman-making-alternate-nostril-breathing-grey_1163-2939.jpg">
+                    <img src="https://image.freepik.com/free-photo/young-attractive-woman-making-alternate-nostril-breathing-grey_1163-2939.jpg" 
+                        alt="bernafas">
+                    </a>
+                <p>Berikut adalah langkah - langkah untuk bernafas : </p>
+                <ol>
+                    <li>Hirup udara lewat hidung</li>
+                    <li>buang lewat mulut atau bisa lewat hidung lagi</li>
+                    <li>jangan ditahan</li>
+                </ol>
+                <p>Terima Kasih, sangat berguna bukan ilmunya</p>
+            </div>
+        </article>
+
+        <article>
+            <div class="isi">
+                <h2>Cara Memasak air minum</h2>
+                    <a href="https://image.freepik.com/free-photo/attractive-athlete-holding-bottle-water-drinking-before-training_342744-642.jpg">
+                    <img src="https://image.freepik.com/free-photo/attractive-athlete-holding-bottle-water-drinking-before-training_342744-642.jpg" 
+                        alt="minum">
+                    </a>
+                <p>Berikut adalah langkah - langkah memasak air minum : </p>
+                <ol>
+                    <li>Panci dan Air</li>
+                    <li>Siapkan Kompor</li>
+                    <li>Isi panci dengan air</li>
+                    <li>Panaskan Air hingga mendidih</li>
+                    <li>Jika sudah mendidih berarti sudah matang</li>
+                    <li>Tuang air ke gelas dan air sudah siap diminum</li>
+                </ol>
+                <p>Terima Kasih, sangat berguna bukan ilmunya</p>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <p>Daftar diri anda agar mendapat notifikasi untuk ilmu - ilmu yang sangat berguna!</p>
+    </footer>
+</body>
+</html>

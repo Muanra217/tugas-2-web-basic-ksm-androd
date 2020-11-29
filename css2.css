@@ -1,0 +1,75 @@
+
+header .title {
+    text-align: center;
+    border-radius: 5px;
+    background-image: url(https://image.freepik.com/free-vector/studying-table-with-books-different-folders_113065-168.jpg);
+}
+
+header .title p {
+    transform: translateY(-20px);
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline;
+	margin-right: 15px;
+}
+
+nav {
+	background-color: blueviolet;
+	padding: 2px;
+}
+
+nav a:hover {
+	color: blue;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.active {
+    color: blue;
+	background-color: white;
+	border-radius: 5px;
+}
+
+.isi {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-right: 25%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+article h3 {
+    color: white;
+    text-align: center;
+}
+
+#kanan {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+img {
+    object-position: center;
+    margin-left: 25%;
+}
+
+footer {
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+}

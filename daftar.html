@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muanra Knowledge</title>
+    <link rel="stylesheet" href="css2.css">
+    <script src="daftar.js"></script>
+</head>
+<body>
+    <header>
+		<div class="title">
+			<h1>MUANRA Knowledge</h1>
+			<p>Selamat datan di Muanra Knowledge! Dimana kalian akan mendapatkan ilmu - ilmu yang berguna </p>
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index2.html">Home</a></li>
+                <li><a href="tentang.html">About</a></li>
+                <li><a href="daftar.html" class="active">Daftar</a></li>
+			</ul>
+        </nav>
+    </header>
+
+    <form id="daftaran">
+        <table class="pendaftaran" align="center">
+            <h2 align="center">Masukkan Data Diri : </h2>
+            <tr>
+                <td class="data"><b>Nama</b></td><td><b>:</b></td>
+                <td><input type="text" id="nama"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Jenis Kelamin</b></td><td><b>:</b></td>
+                <td><input type="text" id="gender"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Usia</b></td><td><b>:</b></td>
+                <td><input type="text" id="usia"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Pekerjaan</b></td><td><b>:</b></td>
+                <td><input type="text" id="pekerjaan"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>Domisili</b></td><td><b>:</b></td>
+                <td><input type="text" id="domisili"></td>
+            </tr>
+            <tr>
+                <td class="data"><b>E-mail</b></td><td><b>:</b></td>
+                <td><input type="text" id="email"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center"><input type="button" onclick="selesai()" value="Daftar"></td>
+            </tr>
+        </table>
+        <p name="rata_rata"></p>
+    </form>
+
+    <footer>
+        <p>Daftar diri anda agar mendapat notifikasi untuk ilmu - ilmu yang sangat berguna!</p>
+    </footer>
+</body>
+</html>
